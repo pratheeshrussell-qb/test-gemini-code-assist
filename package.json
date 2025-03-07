@@ -1,0 +1,20 @@
+{
+  "name": "gql-ts",
+  "version": "1.0.0",
+  "description": "checking gemini code assist",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && lite-server"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
